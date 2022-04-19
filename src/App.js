@@ -133,7 +133,7 @@ function App() {
     // only make POST request on file selection
     if (event.target.value) {
       fetch(DROPDOWN_API_ENDPOINT, {
-        method: 'GET',
+        method: 'POST',
         body: JSON.stringify({ "fileName": event.target.value })
       }).then(response => response.json())
       .then(data => {
