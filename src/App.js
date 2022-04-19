@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 
 // global variables to change where necessary
-const DROPDOWN_API_ENDPOINT = 'https://i4q7dcs17f.execute-api.us-east-1.amazonaws.com/prod/'; // TODO
+const DROPDOWN_API_ENDPOINT = 'https://i4q7dcs17f.execute-api.us-east-1.amazonaws.com/prod2/'; // TODO
 const ML_API_ENDPOINT = 'https://4vo4me1o3k.execute-api.us-east-1.amazonaws.com/prod/'; // TODO
 
 
